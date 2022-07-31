@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Smooch&display=swap');
+
+#navbar{
+
+    background-color: #ff8e8e;
+    font-family: 'Yeon Sung' ;
+    padding: 60;
+    font-family: 'Smooch', cursive;
+    color: #ff75f4;
+    
+}
+#logo{
+    display: flex;
+    color: white;
+    align-items: center;
+    margin: 0 14px;
+    font-size: 28px;
+    margin-right: 40px;
+}
+#logo img{
+    height: 48px;
+}
+#navbar ul{
+    display: flex;
+    flex-direction: row;
+     align-items: center;
+     font-size: 2rem;
+     margin: 0%;
+     padding: 15px;
+}
+#navbar li{
+    list-style: none;
+
+}
+#navbar li a{ 
+   text-decoration: none;
+    padding: 30px 20px;
+}
+#navbar li a:hover{
+    color: black;  
+}
+#introSection{
+
+    color: #3eff78;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: 'ZCOOL QingKe HuangYou';
+    font-size: 65px;
+    align-items: center;
+    background: center / cover no-repeat url(../static/bg.img.jpg);
+    height: 450px;
+    background-color: #010820; 
+    text-align: center;
+};
+#introSection div.small{
+    font-size: 50px;
+    padding: 5px;
+    color: #01ffff;
+}
+#MissionSection{
+    height: 275px;
+    background-color: #ffffff;
+    padding-top: 1px;
+}
+#missionSection h2{
+    text-align: center;
+    
+}
+.card{
+    display: inline-block;
+    border: 2px solid black;
+    border-radius: 18px;
+    width: 555px;
+    margin: -10px 24px;
+    margin-bottom: 30px;
+    height: 170px;
+}
+
+.card h3{
+    text-align: center;
+    margin: 15px 20px;
+
+}
+.card-box{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.card-img{
+    height: 131px;
+    padding: 0 0px;
+    margin: -15px 13px;
+}
+
+.card-img img{
+    height: inherit; 
+}
+
+.card-content{
+    padding: 20px;
+}
+.card-content p{
+    font-size: 19px;
+}
+#SponsorsSection{
+    height: 300px;
+    background-color: #ccaeaec7;
+    padding-top: 1px;
+}
+
+#SponsorsSection h2{ 
+    text-align: center; 
+    font-size: 2rem;
+    margin-top: 5px;
+    display: block;
+}
+#sponsors {
+    height: 120px;
+    max-width: 100px;
+    margin: auto
+}
+
+.spImage{
+    height: 173px;
+    margin: 31px;
+    margin-inline: 129px
+}
+#footer{
+    display: flex;
+    color: #ffffff;
+    align-items: center;
+    justify-content: center;
+    background-color: #010820;
+    height: 60px;
+    font-size: 20px;
+    font-family: 'ZCOOL QingKe HuangYou';
+}

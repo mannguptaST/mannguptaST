@@ -1,0 +1,61 @@
+doctype html
+html
+  head
+    title Mann Dance Academy
+    style
+      include ../static/style.css
+  body
+    nav#navbar.top
+      ul 
+        div#logo
+          img(src="/static/img/logo.png")
+          | MDA 
+        li #[a(href="/") Home]
+        li #[a(href="/") About]
+        li #[a(href="/") services]
+        li #[a(href="/") Class]
+        li #[a(href="/") Contact]
+
+        
+    section#introSection 
+        div.a  Welcome to Mann's Dance Academy 
+        div.small Eat Live Dance 
+
+    section#missionSection
+        h2 Our Mission
+        div.card
+            h3 Dance Perfection
+            div.card-box
+                div.card-img
+                    img(src="/static/img/da1.png")
+                div.card-content
+                    p This is the best dance academy of the universe
+
+        div.card
+            h3 Dance the way you like
+            div.card-box
+                div.card-img
+                    img(src="/static/img/da2.png")
+                div.card-content
+                    p This is the best dance academy of the universe
+
+        div.card
+            h3 Expert Teaching
+            div.card-box
+                div.card-img
+                    img(src="/static/img/da3.png")
+                div.card-content
+                    p This is the best dance academy of the universe
+    section#SponsorsSection 
+       h2 Our Sponsora
+        .sponsors 
+            img(src="/static/img/logo1.png", alt="Sponsors Image", Class="spImage")
+            img(src="/static/img/logo2.png", alt="Sponsors Image", Class="spImage")
+            img(src="/static/img/logo3.png", alt="Sponsors Image", Class="spImage")
+            img(src="/static/img/logo4.png", alt="Sponsors Image", Class="spImage")
+
+    footer#footer 
+        | Copyright © 2022 MannDanceAcademy.com | All RIGHT RESERVED 
+    script
+      include ../static/index.js
+  
